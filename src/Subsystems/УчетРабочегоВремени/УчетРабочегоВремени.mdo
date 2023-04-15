@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3c5396c-d775-445e-a41a-dd501a4edc1a">
+  <name>УчетРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет рабочего времени</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Задачи</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Проекты</content>
+  <content>Enum.СтатусыЗадач</content>
+  <content>Report.ВсеВремя</content>
+  <content>InformationRegister.СтатусыЗадач</content>
+  <content>InformationRegister.ЗатратыВремени</content>
+  <content>Document.Документ1</content>
+  <content>DataProcessor.Jira_1C_Rest_Обмен_1С8_3</content>
+</mdclass:Subsystem>

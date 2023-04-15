@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f30cc917-76c9-48fa-a703-bb94d59dc69e">
+  <producedTypes>
+    <managerType typeId="27a903f1-a46a-4c1e-8c69-3be5e4c07ea6" valueTypeId="8c1db32c-3128-428d-b83e-a047cc385ed4"/>
+    <valueManagerType typeId="2f2b7a35-bfe4-4804-8117-38a9e0d0ad1e" valueTypeId="ba4e4df3-5782-46a7-a750-0728eb62c178"/>
+    <valueKeyType typeId="26993d8a-d181-5331-bd19-d4c25e7da5e7" valueTypeId="d47594ec-b433-5239-a965-28aabcecc11d"/>
+  </producedTypes>
+  <name>узЗапретитьВводФактаДляОсновныхЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запретить ввод факта для основных задач</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

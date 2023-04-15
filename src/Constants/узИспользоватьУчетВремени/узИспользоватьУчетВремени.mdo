@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f45c05c-f6c5-466e-8df3-ee6d910fb159">
+  <producedTypes>
+    <managerType typeId="7d802284-565b-4f8a-a62c-b2a1121138e8" valueTypeId="8f3cb950-a841-4f3e-84ee-56cd4e385503"/>
+    <valueManagerType typeId="ee7dfc28-f961-42d8-8f82-5e88ca04f23c" valueTypeId="ec4c94d9-cf7e-4fbb-813f-3b49151e7765"/>
+    <valueKeyType typeId="49fa0b33-0f88-5964-8d14-aa21d25f9159" valueTypeId="eb87418f-2095-55d1-a35d-efa9e5b16f47"/>
+  </producedTypes>
+  <name>узИспользоватьУчетВремени</name>
+  <synonym>
+    <key>en</key>
+    <value>Use Time Tracking</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать учет времени</value>
+  </synonym>
+  <synonym>
+    <key>ro</key>
+    <value>Use Time Tracking</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

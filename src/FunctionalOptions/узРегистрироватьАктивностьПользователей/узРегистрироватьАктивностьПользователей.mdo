@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a6ad323-9fd3-479c-b1aa-9ea322508c6c">
+  <name>узРегистрироватьАктивностьПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрировать активность пользователей</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>To record user activity</value>
+  </synonym>
+  <location>Constant.узРегистрироватьАктивностьПользователей</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.узАктивностиПользователей</content>
+  <content>InformationRegister.узНастройкиДляСтатусов</content>
+  <content>Constant.узПоказыватьАктивностьПользователяНаРабочемСтоле</content>
+</mdclass:FunctionalOption>

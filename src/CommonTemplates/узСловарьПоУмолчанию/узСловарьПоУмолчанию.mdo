@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0818b36c-6d27-4459-b995-482bf413cbd6">
+  <name>узСловарьПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Словарь по умолчанию</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>The default dictionary</value>
+  </synonym>
+</mdclass:CommonTemplate>

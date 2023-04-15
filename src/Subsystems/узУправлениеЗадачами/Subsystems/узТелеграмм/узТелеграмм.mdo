@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="befec7b7-334d-475f-81d7-872ac8f15168">
+  <name>узТелеграмм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уз телеграмм</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.узТелеграмм_ТокенБота</content>
+  <content>CommonModule.узТелеграммСервер</content>
+  <parentSubsystem>Subsystem.узУправлениеЗадачами</parentSubsystem>
+</mdclass:Subsystem>

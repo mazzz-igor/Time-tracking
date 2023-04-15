@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76cd5961-fc73-4034-8104-d92700610b37">
+  <name>узИспользоватьСвоиЦветаДляЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать свои цвета для задач</value>
+  </synonym>
+  <location>Constant.узИспользоватьСвоиЦветаДляЗадач</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.узВариантыВажностиЗадачи.Attribute.ЦветВажности</content>
+  <content>Catalog.узЗадачи.Attribute.ЦветЗадачи</content>
+  <content>Catalog.узСпринты.Attribute.ЦветСпринта</content>
+</mdclass:FunctionalOption>

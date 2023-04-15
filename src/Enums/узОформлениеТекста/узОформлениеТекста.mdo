@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b6ff570-62c2-42f4-b206-490e1bcf32b1">
+  <producedTypes>
+    <refType typeId="a3f7c3cd-b5e2-4687-a19f-8cb7dcbe2dbe" valueTypeId="f1ba372d-df43-46d3-b013-8c805203ec9d"/>
+    <listType typeId="5403e2f6-51f0-43ec-870a-f64a046bd19a" valueTypeId="22f3728a-58bc-48e8-9368-daeacc2614d1"/>
+    <managerType typeId="3fd05d04-925d-4931-9501-5a97e5e57cbb" valueTypeId="f6adc984-1beb-4811-b2e8-8cdb6f1d3cf8"/>
+  </producedTypes>
+  <name>узОформлениеТекста</name>
+  <synonym>
+    <key>en</key>
+    <value>Text Formating</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Оформление текста</value>
+  </synonym>
+  <synonym>
+    <key>ro</key>
+    <value>Farmatare Textului</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5168d756-f8ea-443f-8c5f-872e36c99078">
+    <name>Текст</name>
+    <synonym>
+      <key>en</key>
+      <value>Text</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Text</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2259309-194f-42bf-a86b-b93f5c5a2b50">
+    <name>Markdown</name>
+    <synonym>
+      <key>en</key>
+      <value>Markdown</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Markdown</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Markdown</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a461176e-9a50-4392-9bcd-7d6235770fe6">
+    <name>ФорматированныйТекст</name>
+    <synonym>
+      <key>en</key>
+      <value>Rich text</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форматированный текст</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Text îmbogățit</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

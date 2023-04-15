@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be6a0189-aca1-4354-8841-8e4220f06649">
+  <producedTypes>
+    <selectionType typeId="e24cf445-6a36-4bcc-b821-1fed7424d4e9" valueTypeId="70a6671d-bdd3-49a5-bf58-ee90258bb5b2"/>
+    <listType typeId="a065e3b8-9179-41d8-a833-332174c9c211" valueTypeId="4e63e7ef-0bd9-4665-a706-165159581c64"/>
+    <managerType typeId="308b40b0-1816-4c17-abf6-73a0f8c0dc4a" valueTypeId="2f5e98cc-b79f-4482-b9b7-05647761160d"/>
+    <recordSetType typeId="a7355273-2a7c-4be3-b1f3-1a9dfe29a275" valueTypeId="57c68540-8a8f-4ccb-9943-e6f029945842"/>
+    <recordKeyType typeId="a7f87fc8-df9f-4da6-aa6e-9f75a10e7919" valueTypeId="22e4bf4f-2606-40ec-a93f-740dd3f621e2"/>
+    <recordType typeId="330332c2-096d-4c00-a76d-817508d9f4ad" valueTypeId="379719cd-885d-4a80-9e57-bc8d10ae0c04"/>
+    <recordManagerType typeId="46bad86e-bd5d-44d3-a81c-de92c365908a" valueTypeId="a4bdddbb-f0cb-4025-b9a9-f001f3f068e8"/>
+  </producedTypes>
+  <name>узНаблюдателиЗаЗадачами</name>
+  <synonym>
+    <key>en</key>
+    <value>Tasks Observers</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Наблюдатели за задачами</value>
+  </synonym>
+  <synonym>
+    <key>ro</key>
+    <value>Tasks Observers</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="06c1d50e-38ae-4cba-b9c2-c48f8db10c14">
+    <name>Пользователь</name>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Utilizator</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0390649d-906d-40c7-a43f-e64c0adf028f">
+    <name>Задача</name>
+    <synonym>
+      <key>en</key>
+      <value>Task</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Task</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.узЗадачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

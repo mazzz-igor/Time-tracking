@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d602d98e-2d5b-46b9-837e-1ade327c50b7">
+  <name>узИспользоватьУчетВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать учет времени</value>
+  </synonym>
+  <comment>Использовать учет времени</comment>
+  <location>Constant.узИспользоватьУчетВремени</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.узЗадачи.Attribute.ЧасыПлан</content>
+  <content>Catalog.узЗадачи.Attribute.Удалить_ЧасыФакт</content>
+  <content>Catalog.узЗадачи.Attribute.ЧасыКОплате</content>
+  <content>Catalog.узЗадачи.TabularSection.Удалить_ФактическиеЧасы</content>
+  <content>Catalog.узЗадачи.TabularSection.Удалить_ФактическиеЧасы.Attribute.ДатаНачала</content>
+  <content>Catalog.узЗадачи.TabularSection.Удалить_ФактическиеЧасы.Attribute.ДатаОкончания</content>
+  <content>Catalog.узЗадачи.TabularSection.Удалить_ФактическиеЧасы.Attribute.ЧасыФакт</content>
+  <content>Catalog.узЗадачи.TabularSection.Удалить_ФактическиеЧасы.Attribute.Комментарий</content>
+  <content>CommonForm.узНастройкиУправленияЗадачами</content>
+</mdclass:FunctionalOption>

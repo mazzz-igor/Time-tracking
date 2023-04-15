@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3c0e33f-8799-4ef8-a0a5-d9f598ab4f77">
+  <producedTypes>
+    <objectType typeId="74e42354-95f2-4062-bd11-8c82db400f40" valueTypeId="bbaf4faa-70f6-438d-a36f-1eed62820714"/>
+    <managerType typeId="4fa7baeb-accc-47c4-a0f0-1c741f125312" valueTypeId="1c6e2e5f-d63d-47a8-9eca-6f016058d5e5"/>
+  </producedTypes>
+  <name>ВсеВремя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Всё время</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВсеВремя.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="652d5cde-0325-4cde-ad91-0c15ebf54266">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

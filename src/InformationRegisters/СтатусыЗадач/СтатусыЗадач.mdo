@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fc9ec04-1914-4e74-b682-a854b49de7d9">
+  <producedTypes>
+    <selectionType typeId="f259106c-7425-4ca1-97b8-c5ff1514ba1d" valueTypeId="4989622e-5c89-4097-afc6-de24cf2e8522"/>
+    <listType typeId="58d1773c-1dbb-473c-a6f5-6094f6c2a97e" valueTypeId="731d3e3b-8afc-4e2d-817d-9c0c93af5352"/>
+    <managerType typeId="1c28594f-53e6-4a72-9eab-2d6bee6f0de0" valueTypeId="5b3c12bd-91ea-4dca-9a78-cf823379eadb"/>
+    <recordSetType typeId="8ad63189-d1b2-4976-aeb3-4f422983a4bf" valueTypeId="dcf5fbea-f55f-4a47-a219-4c3293fbf674"/>
+    <recordKeyType typeId="5cb45a9a-8d13-4b54-b604-9cd87e8e3565" valueTypeId="46776164-7561-459e-bb05-228e483d7dfb"/>
+    <recordType typeId="9ed1b89d-b2cb-4521-8200-dcc9f14ec63c" valueTypeId="39f3b6f1-56b2-428d-a41d-824b4856ed8c"/>
+    <recordManagerType typeId="d273d748-eadf-4bfc-a301-6651ec930a5e" valueTypeId="a0ea90ed-3a60-493c-8fde-aa068b822243"/>
+  </producedTypes>
+  <name>СтатусыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.СтатусыЗадач.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="81f1f109-962e-4d9f-8e66-e214d2bb6bc3">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="90605d33-fc08-4fe8-8050-319fdd33ff50">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Задачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7adf7fd9-86f6-4abe-999b-ce5fe7dec06b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="34a74613-9dfc-4ae3-93b7-09e97fe4693b">
+    <name>ФормаСпискаПланы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка планы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

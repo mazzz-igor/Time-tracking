@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c77e0dee-c52a-4a78-aa37-5170841768a7">
+  <producedTypes>
+    <objectType typeId="00c27174-d8aa-4ec9-bb9a-ae704a9e126b" valueTypeId="6ea9c259-2e79-41d7-80e3-57cd52eae43e"/>
+    <refType typeId="ce9815e6-50e4-48fe-98d2-084c98aafe75" valueTypeId="e1472d55-5d02-4023-ba4a-8a2c0ce069f8"/>
+    <selectionType typeId="65c0797d-b6b9-4d70-943a-7656632b0287" valueTypeId="b94acb32-086d-421c-bb63-1739ff51c1e4"/>
+    <listType typeId="68258734-4782-4f18-8245-de48e0adb093" valueTypeId="3fcf647c-840e-4f49-acb4-b3a6adec8ac9"/>
+    <managerType typeId="981d1e15-759d-410a-ae12-9130abe3bb40" valueTypeId="cdb5825e-ad96-4fd2-91d0-50191b3e19cd"/>
+  </producedTypes>
+  <name>узКонстанты</name>
+  <synonym>
+    <key>en</key>
+    <value>Constants</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Константы</value>
+  </synonym>
+  <synonym>
+    <key>ro</key>
+    <value>Constante</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.узКонстанты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.узКонстанты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="efe1ae94-b603-42df-b8c6-1cc8522c418b">
+      <name>Удалить_ЗапретитьВводФактаДляОсновныхЗадач</name>
+      <description>(Не используется) Запретить ввод факта для основных задач</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="38b8ad37-9b1e-4404-9d50-21d4d10934c7">
+      <name>ДатаПоследнейВыгрузкиФайлаЛистаЗадач</name>
+      <description>Дата последней выгрузки файла листа задач</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="d7b479f7-711b-4681-a071-f917cf75c1c3">
+      <name>ОтключитьВозможностьСозданиеРегламентныхТекущихДел</name>
+      <description>Отключить возможность создание регламентных текущих дел</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="ae4a846f-f623-4b56-830a-0f93a7e258e7">
+      <name>СписокПользователейКомуОтправлятьСистемныеУведомления</name>
+      <description>Список пользователей кому отправлять системные уведомления</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="a28fc012-5cb6-472b-8441-a8494a3d37d0">
+      <name>СтатусЗадачиПоУмолчанию</name>
+      <description>Статус задачи по умолчанию</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="612b685d-f5bb-495d-a75a-0eb782a20030">
+      <name>ТелеграмMaxMessangeID</name>
+      <description>Телеграм MaxMessangeID</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="f54d31d1-3ab2-40f1-85a5-36ae338732b4">
+      <name>ТелеграммИспользоватьЗаменуСимволовВДругуюКодировку</name>
+      <description>Телеграмм использовать замену символов в другую кодировку</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="a4ff6b55-fe91-4281-a871-a45a7292fc3e">
+      <name>ТелеграммИспользоватьПроксиДляОтправки</name>
+      <description>Телеграмм использовать прокси для отправки</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="11d12295-d117-4c00-9e40-f564190f2f39">
+    <name>Значение</name>
+    <synonym>
+      <key>ro</key>
+      <value>Valoare</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+      <types>CatalogRef.узСтатусыЗадачи</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="c52857b6-5013-4d6b-8eda-ac089e049a78">
+    <producedTypes>
+      <objectType typeId="39810dde-56b4-422a-b62b-04b71b83d9f0" valueTypeId="b36a84c5-e48c-4589-8ff9-cc05f3e67bbe"/>
+      <rowType typeId="71b32f5f-2f24-4d8d-a25d-bca3d87679a8" valueTypeId="5d6f1256-b6bd-4c71-b447-8701a093a6f1"/>
+    </producedTypes>
+    <name>ТЧЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТЧЗначения</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c0da2438-c733-407d-922e-f81f6d3224b6">
+      <name>ЛевоеЗначение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Левое значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>CatalogRef.Пользователи</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

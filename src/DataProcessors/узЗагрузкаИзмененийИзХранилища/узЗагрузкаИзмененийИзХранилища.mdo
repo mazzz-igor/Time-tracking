@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42c5f05f-a99c-41c0-b59e-e03ec7c3089b">
+  <producedTypes>
+    <objectType typeId="0dc7a817-c027-47ab-a207-b33d4e9a7f05" valueTypeId="63621a2d-0621-46b7-86ac-1b80e01a8dcf"/>
+    <managerType typeId="5c8d27ef-d031-4691-b78b-a57d7237714a" valueTypeId="34aa9385-11b6-4f72-83d0-6c09124265b2"/>
+  </producedTypes>
+  <name>узЗагрузкаИзмененийИзХранилища</name>
+  <synonym>
+    <key>en</key>
+    <value>Loading from 1C Repository</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка изменений из хранилища</value>
+  </synonym>
+  <synonym>
+    <key>ro</key>
+    <value>Loading from 1C Repository</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.узЗагрузкаИзмененийИзХранилища.Form.Форма</defaultForm>
+  <attributes uuid="4023282e-636a-4682-b532-1bf5666674e2">
+    <name>ВерсияС</name>
+    <synonym>
+      <key>ru</key>
+      <value>С</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="20090c55-63e6-4d5a-bd19-a15b77d824af">
+    <name>ВерсияПо</name>
+    <synonym>
+      <key>en</key>
+      <value>To</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>по</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Până la</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bf0d6493-f75f-457a-ae22-8338836e82e9">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>en</key>
+      <value>Configuration</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Configutație</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.узКонфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ПолучатьИзмененияИзХранилища</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+  </attributes>
+  <forms uuid="eb50984d-7882-459f-9fce-3cbc7dd67208">
+    <name>Форма</name>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Forma</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="9ba36e31-446b-4dad-bee9-c8b856c88861">
+    <name>СвойстваМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства метаданных</value>
+    </synonym>
+  </templates>
+  <commands uuid="d76d88a1-75ed-494f-bbfd-1ab7e2f74798">
+    <name>КомандаЗагрузкаИзмененийИзХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка изменений из хранилища</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.узКонфигурации</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.DataProcessor</picture>
+    </picture>
+  </commands>
+</mdclass:DataProcessor>

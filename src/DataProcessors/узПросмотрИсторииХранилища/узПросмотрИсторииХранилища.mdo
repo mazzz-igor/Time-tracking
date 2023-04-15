@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d0f93fd-d4b1-4e70-addb-6e2c2aea37e9">
+  <producedTypes>
+    <objectType typeId="1f8e8bf9-1ec6-4ce0-a44c-ea03c62f9dfb" valueTypeId="7ff66dca-140c-4a13-8c3b-3cfe3c5352ca"/>
+    <managerType typeId="66c35861-83cc-4eba-baf1-eaca84ff8938" valueTypeId="e51e2691-4622-46dd-9937-ec4b36bb7e7a"/>
+  </producedTypes>
+  <name>узПросмотрИсторииХранилища</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр истории хранилища</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.узПросмотрИсторииХранилища.Form.Форма</defaultForm>
+  <attributes uuid="4f1f8a0c-c38c-4d79-9bda-931c8a28e0f6">
+    <name>КаталогХранилища</name>
+    <synonym>
+      <key>en</key>
+      <value>1C Repository Folder</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог хранилища</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>1C Repository Folder</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог хранилища
+Например: D:\Dev\Storage\</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="77c833b2-6f69-4d2e-a98c-20451b3aa27f">
+    <name>ВерсияС</name>
+    <synonym>
+      <key>ru</key>
+      <value>С</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="604d43de-8d5e-4846-8f66-5c7df156d7af">
+    <name>ВерсияПо</name>
+    <synonym>
+      <key>en</key>
+      <value>To</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>по</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Până la</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8eb33027-33ea-4598-a5d1-49b198556771">
+    <name>ВыводитьОтладочныеСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить отладочные сообщения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3c33e53f-d130-481f-9760-78664fec975e">
+    <name>ВывестиСлужебнуюТаблицу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вывести служебную таблицу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="80e96b3a-4d92-4c5c-8c47-bc61e10ac83a">
+    <producedTypes>
+      <objectType typeId="c2fd8e87-ff20-4b42-ab72-0948ef045cf8" valueTypeId="d36a76ba-26dc-4d67-bdf9-d31d7936b0b3"/>
+      <rowType typeId="e5f43456-35b4-4ce1-ba31-7126960037c9" valueTypeId="a5ceaa8c-91cd-4d21-9a1f-313c666fc000"/>
+    </producedTypes>
+    <name>ИсторияХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>История хранилища</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c0e7f416-fa86-43ca-91cb-2293db063083">
+      <name>Версия</name>
+      <synonym>
+        <key>en</key>
+        <value>Version</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Версия</value>
+      </synonym>
+      <synonym>
+        <key>ro</key>
+        <value>Versiune</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="91d8ffa8-af3e-4b16-b85d-e3c4e78c22bc">
+      <name>ДатаВерсии</name>
+      <synonym>
+        <key>en</key>
+        <value>Version date</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Дата версии</value>
+      </synonym>
+      <synonym>
+        <key>ro</key>
+        <value>Data versiunii</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c469f881-d0f9-421a-8000-99b38dd74610">
+      <name>ПользовательХранилища</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь хранилища</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>User storage</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="a69de5d8-8847-4fbd-8b2d-906db2f0e642">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Comment</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="0e3381d4-95cb-4dda-baf1-6084d36cdb9e">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>User</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6838cf6d-3a27-493b-96c9-f6b5e5b2e3cf">
+      <name>Задача</name>
+      <synonym>
+        <key>en</key>
+        <value>Task</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Задача</value>
+      </synonym>
+      <synonym>
+        <key>ro</key>
+        <value>Task</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="fe8324ea-64ed-4e89-a34f-a3dbbe9c93b7">
+      <name>ВерсияКонфигурации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Версия конфигурации</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b9de4d74-e455-4dba-a6b8-a84923e64c4b">
+    <producedTypes>
+      <objectType typeId="4ce2c007-fa38-402a-999a-587817a92ba3" valueTypeId="a1f78f2b-c90c-4836-979b-b2b80f260237"/>
+      <rowType typeId="8ba0485f-0708-4de6-8f60-b4a6846e749c" valueTypeId="d280e032-4929-4500-9c4b-50dfb78e794e"/>
+    </producedTypes>
+    <name>ИзмененныеОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измененные объекты</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c59f55f5-4e24-4aa2-b0ce-3ecb01744994">
+      <name>Версия</name>
+      <synonym>
+        <key>en</key>
+        <value>Version</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Версия</value>
+      </synonym>
+      <synonym>
+        <key>ro</key>
+        <value>Versiune</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5297ff7d-1c12-4d42-9f3c-37eaa8497fea">
+      <name>ВидИзменения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид изменения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Type of change</value>
+      </synonym>
+      <type>
+        <types>EnumRef.узВидыИзменений</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b7394eeb-c7e1-4340-bed7-746f74e076b7">
+      <name>ТекстИдентификатораОбъектаМетаданных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст идентификатора объекта метаданных</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="a946341c-0c94-4fd7-93f0-7e82748caf84">
+      <name>ИдентификаторОбъектаМетаданных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор объекта метаданных</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Metadata object identifier</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.узИдентификаторыОбъектовМетаданныхКонфигурации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="1b48fadd-b08f-48e0-8896-ee26ac9722aa">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ee255c3c-433f-4448-896e-f4c7479d5827">
+    <name>cTool_1CD</name>
+    <synonym>
+      <key>ru</key>
+      <value>C tool 1 CD</value>
+    </synonym>
+    <comment>Исходная программа взята с bitbucket.org/awa15/tool_1cd/src</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="7d3f997c-eeee-45f9-b9fb-eefe4a454bbb">
+    <name>ИменаКлассов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имена классов</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

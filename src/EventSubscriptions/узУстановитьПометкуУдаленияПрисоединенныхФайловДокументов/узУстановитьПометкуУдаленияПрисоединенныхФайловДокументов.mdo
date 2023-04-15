@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f34234bc-97bf-4a50-acab-96c5d83770f6">
+  <name>узУстановитьПометкуУдаленияПрисоединенныхФайловДокументов</name>
+  <synonym>
+    <key>en</key>
+    <value>Mark the documents attached files for deletion</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Установить пометку удаления присоединенных файлов документов</value>
+  </synonym>
+  <synonym>
+    <key>ro</key>
+    <value>Setați marca de ștergere pentru documentele fisiere atasate</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.узВыпускРелиза</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПрисоединенныеФайлы.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</handler>
+</mdclass:EventSubscription>

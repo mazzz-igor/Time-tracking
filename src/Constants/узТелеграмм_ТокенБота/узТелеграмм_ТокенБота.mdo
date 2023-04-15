@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c89b2169-fddc-4c17-84c2-177fa689f4c8">
+  <producedTypes>
+    <managerType typeId="4e55a51e-9254-41da-9f55-321b6d63aefe" valueTypeId="3a121ddc-f4ed-4338-92a3-9ba9aec3f3f4"/>
+    <valueManagerType typeId="623cd80f-4215-4954-9767-235a8afe97ce" valueTypeId="d8639a2d-b2d7-44db-89b3-f610c4559955"/>
+    <valueKeyType typeId="67fe4cc6-8a45-5625-93be-c587a3de8553" valueTypeId="40bf0173-7730-5fca-ab9c-8592df76726e"/>
+  </producedTypes>
+  <name>узТелеграмм_ТокенБота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграмм : Токен бота</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>ID для рассылки берутся из дополнительных реквизитов пользователей: ТелеграммИД и ТелеграммОтключить</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

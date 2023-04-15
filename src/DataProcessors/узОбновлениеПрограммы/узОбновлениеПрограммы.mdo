@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a695c69-6572-4f7e-8a4c-f3aa1b5554d1">
+  <producedTypes>
+    <objectType typeId="06ae897f-d5e2-4e39-99a5-cf0f2161c1d8" valueTypeId="dcefc621-8382-4716-8d3f-71ec8ad6b554"/>
+    <managerType typeId="0351d144-a136-4f5a-9b2e-bb2bb4ed7eac" valueTypeId="d3efbb81-51c4-4d1b-a5ca-5bc78fb63c55"/>
+  </producedTypes>
+  <name>узОбновлениеПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление программы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.узОбновлениеПрограммы.Form.Форма</defaultForm>
+  <attributes uuid="bda25459-8d6b-415b-8c16-6cc18005a566">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="545622c4-d968-4821-9f4d-08281ab61a0f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

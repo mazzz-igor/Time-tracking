@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20adfeb3-9532-4f99-9632-56ed9657c6c0">
+  <producedTypes>
+    <selectionType typeId="c9e7f55e-2991-4a7e-af2c-0a0d7ab2d08d" valueTypeId="03c9e3e1-d006-45be-b051-2701e94eb487"/>
+    <listType typeId="6799e630-0350-4963-a565-f19312e6354a" valueTypeId="d317e2a1-0d4a-4ece-84b2-6322c4338b55"/>
+    <managerType typeId="d8018158-245b-43d2-bd32-ee31b61abc6f" valueTypeId="1834f1db-46ec-442a-8012-c543d0efcd41"/>
+    <recordSetType typeId="d1b2bd9f-21ff-4f22-8a36-6efb9f0023d6" valueTypeId="b88b476d-1dcb-45d0-b13a-0ecb34de58e9"/>
+    <recordKeyType typeId="242837c3-b2b4-471c-913e-487984e752df" valueTypeId="10527ab6-607b-48f0-b03a-d099d71a2629"/>
+    <recordType typeId="ac771dab-2a60-4556-ad17-d7a9640c70de" valueTypeId="31bf3955-b22b-4989-ae4e-2a5f2e34f197"/>
+    <recordManagerType typeId="bf17b76f-729e-4253-986d-3e7ce20a2495" valueTypeId="2e6fec13-8324-4561-b359-56c25e36e8c0"/>
+  </producedTypes>
+  <name>узЗаписиИсторииКонфигурации</name>
+  <synonym>
+    <key>en</key>
+    <value>Applications History Records</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Записи истории конфигурации</value>
+  </synonym>
+  <synonym>
+    <key>ro</key>
+    <value>Applications History Records</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.узЗаписиИсторииКонфигурации.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8e7af57c-747f-45a7-a720-deb5ca7019ef">
+    <name>ЗаписьИсторииХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись истории хранилища</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.узИсторияКонфигураций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="36a47b10-33b0-412e-ac13-ffb278df826f">
+    <name>ИдентификаторОбъектаМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор объекта метаданных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Metadata object identifier</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.узИдентификаторыОбъектовМетаданныхКонфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="dc2aad2d-e163-4f06-92fe-16d396240553">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Forma listei</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

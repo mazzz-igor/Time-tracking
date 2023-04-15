@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f5730e7-e831-4269-997e-d48c8c191e0a">
+  <name>узПоказыватьАктивностьПользователяНаРабочемСтоле</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать активность пользователя на рабочем столе</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Show user activity on the desktop</value>
+  </synonym>
+  <location>Constant.узПоказыватьАктивностьПользователяНаРабочемСтоле</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.узАктивностьПользователя</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8aaeba49-7d85-4b13-8b14-e5730a052459">
+  <producedTypes>
+    <objectType typeId="a668fde3-c8e7-429e-9905-a501c9f69d66" valueTypeId="56b833ed-1473-4beb-8054-f15f33efd595"/>
+    <managerType typeId="f8033b26-613c-49d9-8b5a-85325fdb1224" valueTypeId="69dc104f-358c-468c-98fe-49076d686ee6"/>
+  </producedTypes>
+  <name>узГрафикСгоранияСпринта</name>
+  <synonym>
+    <key>ru</key>
+    <value>График сгорания спринта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.узГрафикСгоранияСпринта.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="4b4a4456-8bd6-4b9c-a592-1a6bc0eff441">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

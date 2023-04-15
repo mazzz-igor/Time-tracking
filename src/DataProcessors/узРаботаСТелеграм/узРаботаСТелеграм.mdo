@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fca2b53-fa0d-4abf-b96c-dc9ee5389ffd">
+  <producedTypes>
+    <objectType typeId="fe9cdd37-0141-473f-9560-deadb39e43b5" valueTypeId="adb86a50-5264-4e8f-88fd-35edeedfb166"/>
+    <managerType typeId="1d420abd-2d5a-4828-87e5-89d320a9a8b7" valueTypeId="d987a0a6-19e5-4d61-a003-da544302e420"/>
+  </producedTypes>
+  <name>узРаботаСТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с телеграмм</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.узРаботаСТелеграм.Form.Форма</defaultForm>
+  <attributes uuid="80f9d864-0808-49f8-8e06-ecc6534a8483">
+    <name>MaxMessangeID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Max messange ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a4207a8a-95b0-4ed3-a8f8-ffeadc99d4f1">
+    <name>HTTPОтвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTTP Ответ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="8ca7a45f-a362-4ec0-8cc9-8f67c87ab4ee">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

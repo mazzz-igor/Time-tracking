@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b3a5cc1-4730-4bfc-9813-12e64568eb55">
+  <producedTypes>
+    <objectType typeId="9797c1d4-0de7-45bf-ba82-7f70dc7315e1" valueTypeId="c8081b47-7bba-46d3-a0ea-23b72eac6aeb"/>
+    <refType typeId="1e5c12b7-1630-4ec2-a24d-63fcc1c217ab" valueTypeId="96e49cc0-41ef-4e86-8cdf-56fcda730614"/>
+    <selectionType typeId="cff745bb-3335-4f1d-8e17-b3998a725c14" valueTypeId="502f8e79-1bc6-41e7-81fb-dd387af1ea53"/>
+    <listType typeId="500e9546-c5c6-4f36-b80e-27efa7358e3e" valueTypeId="4892d095-e514-472a-bb22-9ddf8caae2a7"/>
+    <managerType typeId="93fd3009-fa7d-4908-a410-bc46a0eebb3d" valueTypeId="a6de17f1-4bb1-4bf4-aef6-aff24bd368a9"/>
+  </producedTypes>
+  <name>узКонфигурации</name>
+  <synonym>
+    <key>en</key>
+    <value>Applications</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурации</value>
+  </synonym>
+  <synonym>
+    <key>ro</key>
+    <value>Aplicatii</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.узКонфигурации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.узКонфигурации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.узКонфигурации.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.узКонфигурации.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="7336f648-7e84-42ac-94f4-5b29f69052ab">
+    <name>ПолучатьИзмененияИзХранилища</name>
+    <synonym>
+      <key>en</key>
+      <value>Receive Changes from 1C Repository</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Получать изменения из хранилища</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Receive Changes from 1C Repository</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если признак установлен, тогда регламентом будут загружаться изменения из хранилища. При этом изменения будут сопоставляться с задачами по #НомерЗадачи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="117221a2-2853-4f06-8ae1-d56a1ab1f61a">
+    <name>Приложение1с</name>
+    <synonym>
+      <key>en</key>
+      <value>Application 1C</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Приложение 1с</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Application 1C</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Необходимо указать 1cv8.exe из конкретной папки с версией платформы.
+Например: C:\Program Files (x86)\1cv8\8.3.7.1790\bin\1cv8.exe</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc114bc5-f6c1-491a-b6c5-5d348418e661">
+    <name>КаталогТранзитнойБазы</name>
+    <synonym>
+      <key>en</key>
+      <value>Transit DB Folder</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог транзитной базы</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Transit DB Folder</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог транзитной базы, в которой будут загружаться список изменений из хранилища
+Например: D:\Dev\Bases\Transit\</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bd56b38b-4de3-459f-bfd0-ad47d871c7c6">
+    <name>ПользовательТранзитнойБазы</name>
+    <synonym>
+      <key>en</key>
+      <value>Transit DB User</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь транзитной базы</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Transit DB User</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя пользователя для входа в транзитную базу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2d9bfe71-2e44-47fa-acd4-22d3afe50cc7">
+    <name>ПарольПользователяВТранзитнуюБазу</name>
+    <synonym>
+      <key>en</key>
+      <value>Transit DB User's Password</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль пользователя в транзитную базу</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Transit DB User's Password</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <toolTip>
+      <key>ru</key>
+      <value>Пароль для входа в транзитную базу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1c055eb9-7051-45b5-bd1b-c54b7c4b6d5b">
+    <name>КаталогХранилища</name>
+    <synonym>
+      <key>en</key>
+      <value>1C Repository Folder</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог хранилища</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>1C Repository Folder</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог хранилища
+Например:
+D:\Dev\Storage\
+или 
+\\share\Storage
+
+</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4dbc1e01-c1aa-4a1c-908d-8f8fa7e10fb3">
+    <name>ПользовательХранилища</name>
+    <synonym>
+      <key>en</key>
+      <value>1C Repository User</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь хранилища</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>1C Repository User</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя пользователя для подключения к хранилищу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d77ebd32-f692-457f-817f-2a64d874334a">
+    <name>ПарольПользователяВХранилище</name>
+    <synonym>
+      <key>en</key>
+      <value>1C Repository User's Password</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль пользователя в хранилище</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>1C Repository User's Password</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <toolTip>
+      <key>ru</key>
+      <value>Пароль для подключения к хранилищу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2d4d6f5e-632c-4f86-a05b-abdf8a4ae46e">
+    <name>ИспользоватьАльтернативнуюЗагрузкуДанныхИзХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать альтернативную загрузку данных из хранилища</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>В этом режиме, история хранилища читается напрямую из файлов хранилища.
+Необходимо обеспечить доступ к папке с хранилищем</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="63717513-ca6d-4093-99f2-0eb6cd05e175">
+    <name>ФормироватьФайлЛистЗадачВКаталогеЛокальногоРепозитория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать файл лист задач в каталоге локального репозитория</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если признак включен, тогда будет формироваться файл со списком задач в указанной папке. 
+Например: D:\Git\UT\src\cf\ListTasks.txt</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8906f3c0-6817-4bac-b8e5-cd89bd5450ae">
+    <name>КаталогДляВыгрузкиФайлаЛистаЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог для выгрузки файла листа задач</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="13d5932c-967e-4ddc-abc9-6ad6699aa2e5">
+    <name>РазрешеныКомментарииБезЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешены комментарии без задач</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="996b394a-55ac-4aa3-af79-9fc69c89c166">
+    <name>узФормироватьФайлСОтборомПоКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать файл с отбором по конфигурации</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если признак включен, тогда будет формироваться файл со списком задач с установленным отбором по конфигурации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9d5642ab-5590-4e37-9fc2-5a999853d38f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Forma elementului</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cc0e56be-81b6-4e67-8807-acf8026b395f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

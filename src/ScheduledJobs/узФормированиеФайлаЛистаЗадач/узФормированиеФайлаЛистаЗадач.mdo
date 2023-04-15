@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c856727-5c4e-4943-ac2c-79fd1108e753">
+  <name>узФормированиеФайлаЛистаЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование файла листа задач</value>
+  </synonym>
+  <methodName>CommonModule.узОбщийМодульСервер.узФормированиеФайлаЛистаЗадач</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

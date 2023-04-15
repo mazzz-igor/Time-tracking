@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d73084d9-8cb8-4637-a4ba-916dee56be1b">
+  <producedTypes>
+    <managerType typeId="9a7cc4d2-5583-4849-a5bf-f63d76ee9143" valueTypeId="ee1e4d34-db32-4b7c-8f74-9c591fd58e74"/>
+    <valueManagerType typeId="d9b5bcf2-a6f8-45c2-8d11-f2692ad783a8" valueTypeId="f34b7726-cfb2-4cba-8638-be530af02b53"/>
+    <valueKeyType typeId="da068fb7-ba6f-59ad-af52-b37cdba7abb6" valueTypeId="d3ade2fb-ae86-5f76-8a14-a22e446929c1"/>
+  </producedTypes>
+  <name>узПоказыватьАктивностьПользователяНаРабочемСтоле</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать активность пользователя на рабочем столе</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Show user activity on the desktop</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

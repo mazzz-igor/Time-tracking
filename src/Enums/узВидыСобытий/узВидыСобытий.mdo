@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40dd2855-0dba-4ae6-a816-daa35ff7a5ae">
+  <producedTypes>
+    <refType typeId="93c0bbdc-e990-4a6f-9463-70d6349bf041" valueTypeId="39b71472-0af4-4bc1-97a8-8a3f23aec2a0"/>
+    <listType typeId="2a3064d5-d9e9-4e8b-a7e3-ab5d41cb2886" valueTypeId="89aa3519-f05e-4c51-95f6-6bd74e3afb70"/>
+    <managerType typeId="5aeeacd9-b0bf-4fb6-8998-766659ee08e7" valueTypeId="597eaa55-b322-4584-994a-59319b11d366"/>
+  </producedTypes>
+  <name>узВидыСобытий</name>
+  <synonym>
+    <key>en</key>
+    <value>Events Types</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды событий</value>
+  </synonym>
+  <synonym>
+    <key>ro</key>
+    <value>Tipuri Evenimentelor</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9a891447-67f6-412b-8944-3ab8c41bc1ce">
+    <name>ДобавленаЗадача</name>
+    <synonym>
+      <key>en</key>
+      <value>Task Added</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлена задача</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Task Added</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="540b8d76-4a52-45ad-b1bf-5cbdd9d31dda">
+    <name>НовыйИсполнитель</name>
+    <synonym>
+      <key>en</key>
+      <value>New Executor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Новый исполнитель</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Executor Nou</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f3e766c-a7e1-454e-ba64-f74e8f75f7a7">
+    <name>ИзменениеСтатуса</name>
+    <synonym>
+      <key>en</key>
+      <value>Change Status</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение статуса</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Schimbarea Starei</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02f5f34d-fef3-488b-8089-dc40a696dc72">
+    <name>ДобавленКомментарий</name>
+    <synonym>
+      <key>en</key>
+      <value>Comment Added</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлен комментарий</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Comentariu Adaugat</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a7fd0f0-073b-469a-af6b-a5ec9be2894e">
+    <name>ИзмененКомментарий</name>
+    <synonym>
+      <key>en</key>
+      <value>Comment Changed</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Изменен комментарий</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Comentariu Schimbat</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f4cdbfd-45c8-41fa-b023-f2f5363a8600">
+    <name>ИзмененоОписаниеЗадачи</name>
+    <synonym>
+      <key>en</key>
+      <value>Task Description Changed</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Изменено описание задачи</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value> Descriere Sarcinii s-a schimbat</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea600587-2713-4d6c-a2a1-3e3a5f9c8714">
+    <name>ДобавленВопрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлен вопрос</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Add question</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="322570eb-67b5-46f9-a797-9b1a9843bab7">
+    <name>ЗакрытВопрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт вопрос</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Close question</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b9004b12-74f2-4ece-bb51-0336f09862ac">
+    <name>СозданДокументВыпускРелиза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создан документ выпуск релиза</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Create draft release</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d15b512c-3bab-43f0-bd16-7975fbbf1a84">
+    <name>ПроведенДокументВыпускРелиза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведен документ выпуск релиза</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Released</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b6c98f0-284a-461b-84fa-4efc8a2b0e0f">
+    <name>ИзмененаКонфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменена конфигурация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Changed the configuration</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0947c63-ebfe-446c-8f31-ad004e43eafc">
+    <name>ВходящееПисьмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящее письмо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6517b4d4-db53-43f5-8a97-c905c362ec08">
+    <name>ИсходящееПисьмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящее письмо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78acbc1f-0162-4db0-8ebc-f6e06aa5f88a">
+    <name>ВыполненаЗадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена задача</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

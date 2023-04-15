@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5218b00-0874-480c-b1f0-b97921bacc20">
+  <producedTypes>
+    <objectType typeId="fbdcc3f7-1f60-4d1f-af8e-81b68a9e455e" valueTypeId="d7d6c316-9ca7-4d1f-bf44-a17d95726025"/>
+    <managerType typeId="8889f019-6d59-4039-8d6e-7c1fb917529d" valueTypeId="879ec907-34cc-4971-9f7c-5866ff11e59f"/>
+  </producedTypes>
+  <name>узФормированиеФайлаСоСпискомЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование файла со списком задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.узФормированиеФайлаСоСпискомЗадач.Form.Форма</defaultForm>
+  <attributes uuid="afb22079-3d3c-47a1-a3ec-77f359440cf1">
+    <name>ПапкаДляВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папка для выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d9a80f22-54e7-4e49-893e-03c7b70baf94">
+    <name>узКонфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.узКонфигурации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если в конфигурации указано &quot;ФормироватьФайлСОтборомПоКонфигурации&quot;- то быдут выгружены только задачи по указанной конфигурации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="65fc4915-d526-4546-995d-e558f0ec4ca2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

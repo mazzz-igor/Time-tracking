@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebbd739a-73c1-4237-bb32-8ac4b4134562">
+  <producedTypes>
+    <objectType typeId="0ea87cef-7676-482d-a6cd-1090ffa0212f" valueTypeId="ce569b00-c524-4e52-bad4-5194f5a83619"/>
+    <managerType typeId="3189ca7d-686d-44fb-94f8-4c6fd5488605" valueTypeId="769fc7e4-cede-44e2-aff9-9ad085cf0fc2"/>
+  </producedTypes>
+  <name>узАктивностьПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Активность пользователя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.узАктивностьПользователя.Form.Форма</defaultForm>
+  <attributes uuid="31c669d9-8891-41ce-8cf9-ce9f51ee3ce2">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="fdda952e-e6ef-4adc-838f-08c30b8ae483">
+    <producedTypes>
+      <objectType typeId="18c3928e-8813-44d2-99c5-64f413dd0068" valueTypeId="50045f3d-efac-4f45-a8f2-3d7377b6f3dd"/>
+      <rowType typeId="f1fa76a8-a18d-4875-ac88-032a59c8e222" valueTypeId="e53689b2-3939-4719-a53e-c11f579f3752"/>
+    </producedTypes>
+    <name>ТаблицаАктивностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица активностей</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a7350dcf-3ded-442a-9dd7-394cdf707f24">
+      <name>Период</name>
+      <synonym>
+        <key>ru</key>
+        <value>Период</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f047fde8-b0c4-4ac4-9dec-4f545f846030">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="13fb7ec7-71ca-4cfc-a6bd-70e8c529af9c">
+      <name>День</name>
+      <synonym>
+        <key>ru</key>
+        <value>День</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6fff5a36-ea3f-4e15-83c1-45e90a36e85f">
+      <name>СсылкаНаОбъект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка на объект</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.узИсторияКонфигураций</types>
+        <types>DocumentRef.узВыпускРелиза</types>
+        <types>CatalogRef.узЗадачи</types>
+        <types>CatalogRef.узВопросыОтветы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a8469a0a-8cb8-4ae2-938a-ee743eca8dce">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3a18e5d1-95ac-4773-aa7a-5e2fc27ab27d">
+      <name>ВидСобытия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид события</value>
+      </synonym>
+      <type>
+        <types>EnumRef.узВидыСобытий</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="093ce5dd-a4fa-47f9-8a50-566ddb2a9959">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

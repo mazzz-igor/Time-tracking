@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b72b6c88-4d22-4d26-b339-08bd114223d4">
+  <producedTypes>
+    <selectionType typeId="cd4351c2-8026-459d-8bda-7a2c1296fa91" valueTypeId="b47f249d-3f5d-4cf0-990c-b66005bca930"/>
+    <listType typeId="1f61d6fe-3808-4183-86d9-9892e907caa5" valueTypeId="fb56561a-a2b2-4a10-8bb9-4438629f76e5"/>
+    <managerType typeId="5a0a182f-988e-453d-96c6-51828e9e6254" valueTypeId="75744259-5652-431c-9cd9-ccbdd03d6e69"/>
+    <recordSetType typeId="cb956b5f-ec9d-4a0d-a5fb-660693d4e1a8" valueTypeId="bff58d5d-b735-4677-a5fb-13b15c572803"/>
+    <recordKeyType typeId="43c41a61-6528-48a6-a521-e1fe613de2f4" valueTypeId="dc2aa8b1-882c-4391-a68a-45e90ea89420"/>
+    <recordType typeId="682ac7c3-f388-419a-8668-aeb17c65e32f" valueTypeId="2bf01d2c-25e2-4494-8f31-ad46165b921a"/>
+    <recordManagerType typeId="20a89203-1f97-4284-bc74-05d01c9b05b7" valueTypeId="a8c925b4-02b4-4ea4-839f-a4311d984d5b"/>
+  </producedTypes>
+  <name>ЗатратыВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Затраты времени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЗатратыВремени.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ЗатратыВремени.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="799a07c9-49cb-4291-a60c-0ac4ef30970c">
+    <name>Секунд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Секунд</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8a440a62-75a9-443b-98df-a245897dfccf">
+    <name>Минут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минут</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="acdda75d-7ca3-4cb0-8405-9a94a5bb93e3">
+    <name>Часов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6a67a27f-f71a-49c7-b007-041cb4474c1c">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="fb009c71-1641-483c-a706-8cc3be0e59b2">
+    <name>ВремяНачло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начло</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="228439a9-7243-49df-ad78-85623ac9164d">
+    <name>ВремяОкончание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончание</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0eb68a37-28a8-4ba9-abf6-99eede594b87">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="0f6fb8b9-4a22-4728-a144-422a43f6d77b">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Задачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="32f2000a-b612-4d6b-97fc-b40eba68325b">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7f70fd4c-3c04-477c-81e5-5b56cbd715d6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5a88cef0-9248-4b6d-9a07-480a242357d1">
+    <name>ФормаВыбораВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора времени</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

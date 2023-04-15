@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0096772c-ed94-4a59-8321-8a8628fc02a4">
+  <producedTypes>
+    <objectType typeId="d9ec71e1-b759-40f6-b8b6-b158d38b42f5" valueTypeId="d7075fbb-b193-41cc-a78c-ce39cfd61745"/>
+    <managerType typeId="0191804c-f053-467f-b4e8-12af0d996f7d" valueTypeId="355e9453-f903-4e03-843f-33992d492bc7"/>
+  </producedTypes>
+  <name>узОтчетПоЗадачам</name>
+  <synonym>
+    <key>en</key>
+    <value>Tasks Report</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по задачам</value>
+  </synonym>
+  <synonym>
+    <key>ro</key>
+    <value>Raport pe Sarcini</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.узОтчетПоЗадачам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="080b3cd1-82a5-47d9-ba48-ca8aa9d91154">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Schema principală de combinare a datelor</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

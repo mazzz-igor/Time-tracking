@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e79e6f1-fb9d-4596-adc5-cbdbe9ed62dc">
+  <producedTypes>
+    <objectType typeId="47f9d585-c27a-4d2e-b8b6-49b2f28172da" valueTypeId="2d351b2c-d482-41fe-ba99-c61ed3cbfb79"/>
+    <managerType typeId="67db96d8-bafc-4372-ab0b-79e293d8963d" valueTypeId="ed5e7c65-b5aa-42ab-b862-1a38dda8e454"/>
+  </producedTypes>
+  <name>узПроцентВыполненныхЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процент выполненных задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.узПроцентВыполненныхЗадач.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.узПроцентВыполненныхЗадач.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <forms uuid="7e330d16-f038-4e2e-be72-603f1ef0cf3c">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5d6fee31-85a8-4631-a25e-db5e4514328c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c3e8780-3b81-4e24-b9c3-835cd20e182c">
+  <producedTypes>
+    <managerType typeId="c329431c-5c98-48be-af3c-2213e421fb3f" valueTypeId="89c6baba-4e6f-4dad-864d-ea8aa58ca816"/>
+    <valueManagerType typeId="a4eaaa1d-c54c-4b84-ab84-dbba63506a71" valueTypeId="c7773d8a-e455-4147-a7eb-26524718ad49"/>
+    <valueKeyType typeId="53e6ee5d-289e-5e61-82df-442e1a99e702" valueTypeId="08a47dc5-4a4f-5584-aa36-9f6201bbf212"/>
+  </producedTypes>
+  <name>узРегистрироватьАктивностьПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрировать активность пользователей</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>To record user activity</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

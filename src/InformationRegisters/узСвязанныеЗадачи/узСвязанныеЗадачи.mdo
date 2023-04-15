@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b675e8fc-8b7a-4898-9a81-6ca0f7bc68dc">
+  <producedTypes>
+    <selectionType typeId="bced9650-097a-4b66-90a0-790789d31b0f" valueTypeId="63ff8a42-1671-4a6d-b2f9-f0eac420de1a"/>
+    <listType typeId="cb29e657-2509-43cc-98ec-4318893cf185" valueTypeId="b9c14efd-bf4b-4035-abe3-a380d9b66687"/>
+    <managerType typeId="c32ecb1c-7a49-4623-b86b-5b3667629b4f" valueTypeId="daac7294-32c4-43d5-a0b1-b93d62803a9c"/>
+    <recordSetType typeId="ec157e55-5ade-4d85-b675-1c8cfb051baf" valueTypeId="54bbb33a-84c1-4588-8933-5546265dc307"/>
+    <recordKeyType typeId="d096164f-9ef1-438f-9d3f-c622dee85a71" valueTypeId="db8dcc74-4915-469e-9939-4c32fa61f349"/>
+    <recordType typeId="5213a3f6-8f7a-4149-b9bc-1925aa94e729" valueTypeId="26a618b3-d456-4b5c-86ef-69923b1889fb"/>
+    <recordManagerType typeId="a4a7beb7-f844-4589-9e6c-f941c48e11b4" valueTypeId="6a6d6b8a-6926-4e1e-9896-c032fef45383"/>
+  </producedTypes>
+  <name>узСвязанныеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cвязанные задачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.узСвязанныеЗадачи.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="e70e37fd-1219-49b2-8b1e-c9e5b5882ea6">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.узЗадачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c35de19f-5b2c-419a-a507-90a0d900d12e">
+    <name>СвязаннаяЗадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связанная задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.узЗадачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7b926b8e-1bd5-4915-b49b-763a79127826">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

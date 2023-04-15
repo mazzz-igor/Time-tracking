@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3866a43e-9fba-4e0b-8529-e7d7697609fe">
+  <name>узЗагрузкаИзмененийИзХранилища</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка изменений из хранилища</value>
+  </synonym>
+  <methodName>CommonModule.узОбщийМодульСервер.узЗагрузкаИзмененийИзХранилища</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

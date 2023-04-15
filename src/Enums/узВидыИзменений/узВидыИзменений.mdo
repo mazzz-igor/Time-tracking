@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fa07e6b-93b2-4ae1-badf-e94aa62a4c28">
+  <producedTypes>
+    <refType typeId="1cedd2bb-c171-47a8-96f4-979c20c1aeb1" valueTypeId="17b0d02a-3c9d-4a59-8d2d-0eb448709309"/>
+    <listType typeId="649beeea-b781-4e67-a340-bd560b1e192e" valueTypeId="90fcdbba-dc8a-4a9e-b00a-65cdbe48ea55"/>
+    <managerType typeId="861a8d51-a7f6-4a58-ac6a-a72f1f7bbd0a" valueTypeId="59a2da4a-ca44-4576-abe2-d95f0eeb6985"/>
+  </producedTypes>
+  <name>узВидыИзменений</name>
+  <synonym>
+    <key>en</key>
+    <value>Changes Types</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды изменений</value>
+  </synonym>
+  <synonym>
+    <key>ro</key>
+    <value>Tipuri Schimbarilor</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3226689a-da8f-481f-b59c-bbb4a94fba88">
+    <name>Добавлен</name>
+    <synonym>
+      <key>en</key>
+      <value>Added</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлен</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Adaugat</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb686d36-fff5-4d95-a4b2-430b44de2823">
+    <name>Изменен</name>
+    <synonym>
+      <key>en</key>
+      <value>Changed</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Изменен</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Schimbat</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4763693a-69ce-4a3c-9114-bdaed82c0411">
+    <name>Удален</name>
+    <synonym>
+      <key>en</key>
+      <value>Deleted</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Удален</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Deleted</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
