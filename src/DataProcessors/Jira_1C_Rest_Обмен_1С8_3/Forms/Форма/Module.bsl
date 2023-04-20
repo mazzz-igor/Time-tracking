@@ -2817,6 +2817,7 @@
 
 &НаСервере
 Function NewTaskНаСервере(IndexRow)
+	
 	CurrentRow = Объект.JiraСписокЗапросов.НайтиПоИдентификатору(IndexRow);
 	Если CurrentRow = Неопределено Тогда
 		Возврат Undefined;
@@ -2828,11 +2829,19 @@ Function NewTaskНаСервере(IndexRow)
 	КонецЕсли;
 	
 	НоваяЗадача = Справочники.Задачи.СоздатьЭлемент();
-	НоваяЗадача.Дата = ТекущаяДата();
+	НоваяЗадача.Дата = ТекущаяДатаСеанса();
 	НоваяЗадача.Код = CurrentRow.Кey;
 	НоваяЗадача.Наименование = CurrentRow.Summary;
 	НоваяЗадача.ПолноеНаименование = CurrentRow.Кey + " - " + CurrentRow.Summary;
 	НОваяЗадача.HttpRef = CurrentRow.BrowseLink;
+	НоваяЗадача.Описание = (
+		CurrentRow.Кey + Символы.ПС +
+		"// " + CurrentRow.Кey + Символы.ПС +
+		Символы.ПС +
+		"//-> " + CurrentRow.Кey + " - " + CurrentRow.Summary + Символы.ПС +
+		Символы.ПС +
+		"//<- " + CurrentRow.Кey
+	);
 	
 	Попытка
 		НоваяЗадача.Записать();

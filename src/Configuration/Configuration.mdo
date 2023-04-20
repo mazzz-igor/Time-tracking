@@ -1804,7 +1804,6 @@
   <dataProcessors>DataProcessor.узРаботаСТелеграм</dataProcessors>
   <dataProcessors>DataProcessor.узОбновлениеПрограммы</dataProcessors>
   <dataProcessors>DataProcessor.Jira_1C_Rest_Обмен_1С8_3</dataProcessors>
-  <dataProcessors>DataProcessor.Обработка1</dataProcessors>
   <informationRegisters>InformationRegister.АдресныеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
